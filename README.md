@@ -15,6 +15,10 @@ NexFS Software is distributed under the [Nexustorage Terms & Conditions](https:/
 
 Nexfscli is an opensource project which can be used to manage NexFS while also providing code examples on how to use the NexFS direct managment file API
 
+Nexfs Release 1.6 Highlights include:
+  * Enhanced iSCSI configuration
+  * Extensive AWS S3 API Support, including Multipart uploads
+    
 NexFS Release 1.01.04(23)Highlights include:
   * Added DeleteObjects API method to Content Server (S3 API)
   * Enhanced Nexfs Server to use ListObjectv2 and DeleteObject when purging datafiles from S3 API Storage
