@@ -15,6 +15,15 @@ NexFS Software is distributed under the [Nexustorage Terms & Conditions](https:/
 
 Nexfscli is an opensource project which can be used to manage NexFS while also providing code examples on how to use the NexFS direct managment file API
 
+NexFS Release 1.7 Highlights include:
+
+  * Enhanced iSCSI Configuration: All iSCSI configuration settings are now available through the management web console.
+  * iSCSI Active Server Information: Active server information is now accessible via the management API and management web console.
+  * Improved Response to iSCSI Initiators: Better handling of scenarios where no storage on any tier is available to service a request.
+  * Enhanced AWS S3 API Support: Including improved multipart upload compatibility.
+  * Enhanced Management and Content Server: Improved functionality and performance.
+  * Many Small Enhancements and Fixes: Various minor improvements and bug fixes.
+    
 Nexfs Release 1.6 Highlights include:
   * Enhanced iSCSI configuration
   * Extensive AWS S3 API Support, including Multipart uploads
