@@ -14,6 +14,53 @@ As software-defined storage NexFS offers flexibility, including the ability to c
 NexFS Software is distributed under the [Nexustorage Terms & Conditions](https://www.nexustorage.com/nexustorage-terms-and-conditions) and [Nexustorage EULA](https://www.nexustorage.com/nexustorage-end-user-license-agreem)
 
 Nexfscli is an opensource project which can be used to manage NexFS while also providing code examples on how to use the NexFS direct managment file API
+---
+
+## **NexFS 1.8 LTS – Release Notes**
+
+**Release Date:** 30 May 2025
+**Version:** 1.8 (Long-Term Support)
+
+---
+
+### **Overview**
+
+NexFS 1.8 LTS is a major stability and scalability release that significantly enhances core components of the NexFS platform. This release introduces a highly optimized content web server, improves POSIX compatibility, and delivers important bug fixes and system hardening, making it the recommended upgrade for all production environments.
+
+---
+
+### **Highlights**
+
+#### ✅ **Enhanced Content Web Server**
+
+* Major architectural improvements to the integrated content web server.
+* Significantly increased scalability under high-concurrency workloads.
+* Lower latency and improved request handling for large-scale S3-compatible deployments.
+
+#### 🧩 **Increased POSIX Compatibility**
+
+* Extended support for POSIX file operations and behaviors.
+* Improved compatibility with legacy and modern Linux applications relying on advanced file system semantics.
+
+#### 🐛 **Bug Fixes**
+
+* Resolved multiple stability issues and memory handling bugs identified in prior releases.
+* Fixed edge-case errors in object listing, multipart uploads, and file attribute handling.
+
+#### 🔐 **General System Hardening**
+
+* Improved input validation and internal consistency checks.
+* Enhanced error handling and defensive programming across all subsystems.
+* Security-relevant fixes and safeguards based on code audits and field reports.
+
+---
+
+### **Upgrade Recommendation**
+
+This release is recommended for all existing NexFS users, especially those operating in production or performance-sensitive environments. As an LTS release, 1.8 will receive extended support and maintenance updates.
+
+---
+
 
 NexFS Release 1.7 Highlights include:
 
